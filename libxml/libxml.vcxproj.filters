@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="c14n.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="catalog.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="chvalid.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="debugXML.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="dict.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DOCBparser.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="encoding.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="entities.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="error.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="globals.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="hash.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="HTMLparser.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="HTMLtree.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="legacy.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="list.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="parser.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="parserInternals.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="pattern.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="relaxng.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SAX.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SAX2.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="schematron.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="threads.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="tree.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="trio.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="trionan.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="triostr.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="uri.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="valid.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="xinclude.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="xlink.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="xmlIO.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="xmlmemory.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="xmlmodule.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="xmlreader.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="xmlregexp.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="xmlsave.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="xmlschemas.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="xmlschemastypes.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="xmlstring.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="xmlunicode.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="xmlwriter.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="xpath.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="xpointer.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="acconfig.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="libxml\c14n.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="libxml\catalog.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="libxml\chvalid.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="libxml\debugXML.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="libxml\dict.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="libxml\DOCBparser.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="elfgcchack.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="libxml\encoding.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="libxml\entities.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="libxml\globals.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="libxml\hash.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="libxml\HTMLparser.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="libxml\HTMLtree.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="libxml.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="libxml\list.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="libxml\nanoftp.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="libxml\nanohttp.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="libxml\parser.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="libxml\parserInternals.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="libxml\pattern.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="libxml\relaxng.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="libxml\SAX.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="libxml\SAX2.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="libxml\schemasInternals.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="libxml\schematron.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="libxml\threads.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="libxml\tree.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="trio.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="triodef.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="trionan.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="triop.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="triostr.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="libxml\uri.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="libxml\valid.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="libxml\xinclude.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="libxml\xlink.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="libxml\xmlautomata.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="libxml\xmlerror.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="libxml\xmlexports.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="libxml\xmlIO.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="libxml\xmlmemory.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="libxml\xmlmodule.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="libxml\xmlreader.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="libxml\xmlregexp.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="libxml\xmlsave.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="libxml\xmlschemas.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="libxml\xmlschemastypes.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="libxml\xmlstring.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="libxml\xmlunicode.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="libxml\xmlversion.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="libxml\xmlwriter.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="libxml\xpath.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="libxml\xpathInternals.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="libxml\xpointer.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>
