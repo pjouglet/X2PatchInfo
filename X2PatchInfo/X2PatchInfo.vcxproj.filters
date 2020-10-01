@@ -24,12 +24,18 @@
     <ClCompile Include="adler32.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="FileInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="kom.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="adler32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileInfo.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

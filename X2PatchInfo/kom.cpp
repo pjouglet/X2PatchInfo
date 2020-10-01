@@ -152,13 +152,14 @@ bool Komfile::Open(std::string filename)
     std::ifstream filestream(filename.c_str(), std::ios_base::in | std::ios_base::binary);
     if (filestream.is_open())
     {
+        filestream.seekg(0, std::ios_base::beg);
         int pos = filestream.tellg();
         char magicword[52];
 
         if (ReadInFile(filestream, magicword, 52) == false) return false;
 
         unsigned int size;
-        bool compressed;
+        char compressed[4];
 
         if (ReadInFile(filestream, (char*)&size, 4) == false) return false;
         if (ReadInFile(filestream, (char*)&compressed, 4) == false) return false;
@@ -231,6 +232,8 @@ bool Komfile::Open(std::string filename)
             return false;
         }
     }
+    filestream.seekg(0, std::ios_base::end);
+    fileSize = filestream.tellg();
     filestream.close();
     return true;
 }

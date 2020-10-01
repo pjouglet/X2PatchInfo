@@ -146,11 +146,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="adler32.cpp" />
+    <ClCompile Include="FileInfo.cpp" />
     <ClCompile Include="kom.cpp" />
     <ClCompile Include="X2PatchInfo.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="adler32.h" />
+    <ClInclude Include="FileInfo.h" />
     <ClInclude Include="kom.h" />
   </ItemGroup>
   <ItemGroup>

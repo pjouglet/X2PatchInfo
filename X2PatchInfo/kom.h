@@ -120,6 +120,8 @@ public:
     unsigned int GetFileTime();
     unsigned int GetAdler32() const { return adler32; }
     unsigned int GetHeaderSize() const { return headersize; }
+    unsigned int GetFileSize() const { return fileSize; }
+
 
     bool Verify();
 private:
@@ -128,4 +130,5 @@ private:
     unsigned int filetime;
     unsigned int adler32;
     unsigned int headersize;
+    unsigned int fileSize;
 };
