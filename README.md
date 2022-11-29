@@ -7,7 +7,7 @@ Generating `patchinfo.xml` file for Elsword.
 Run the program in the client folder. It'll generate a `patchinfo.xml` file used by the launcher to download the files.
 
 ## Compiling
-This software was made using `Visual Studio 2019 Community` and C++17.  
+This software was made using `Visual Studio 2022 Community` and C++20.  
 Simply open the solution and build the sources.
 
 ## Notes
